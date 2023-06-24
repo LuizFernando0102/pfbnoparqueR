@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<body bgcolor="#FFFFFF">
+		<meta charset="utf-8" />
+		<title>Agendamentos</title>
+
+		<link rel="stylesheet" type="text/css" href="Estilo.css">
+
+	</head>
+	<body>
+		<header>
+		<img src="img/banner.png" alt="banner com simbolo e texto PFB no parque com paisagem ensolarada de um parque ao fundo"/>
+		</header>
+			<nav>
+				<a class="a" href="index.html">HOME</a> 
+				<a class="a" href="#beneficios">BENEFÍCIOS</a> 
+				<a class="a" href="#modalidades">MODALIDADES</a>
+				<a class="a" href="#treinos">TREINOS</a> 
+				<a class="a" href="agendamentos.html">AGENDAMENTOS</a>
+			</nav>
+
+		<section id="agendamentos">
+			<h1>Agendamentos</h1>
+			<p >Agende uma aula experimental grátis!</p>
+			
+		<form>
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" name="nome_completo" size="60" placeholder="Nome Completo" required autofocus />
+			
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" size="60" placeholder="nome@email.com" required /> <br/>
+
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" name="senha" size="60" placeholder="somente números" required /> <br/>
+
+			<label for="celular">Celular</label>
+			<input id="celular" type="tel" name="celular" size="14" placeholder="(99)99999-9999"/>
+
+			<div class="container">
+				<div class="mini-itens">
+					<label for="data">Data:</label>
+					<input id="data" type="date" name="data" size="60" placeholder="" required />
+				</div>
+				<div class="mini-itens">
+					<label for="hora">Hora:</label>
+					<input id="hora" type="time" name="hora" size="60" placeholder="" required />
+				</div>
+				<div class="mini-itens">
+					<label for="aulas">Aulas:</label>
+					<input id="aulas" type="number" name="aulas" min="1" max="10" step="1" placeholder="-" required />
+				</div>
+			</div>
+
+			<label for="nivel">Nível:</label>
+			<select id="nivel" name="nivel">
+				<option>Selecione</option>
+				<option value="inciante">Iniciante</option>
+				<option value="basico">Básico</option>
+				<option value="intermediario">Intermediário</option>
+				<option value="avancado">Avançado</option>
+			</select>
+			
+			<fieldset>
+				<legend>Gênero:</legend>
+				<input id="masculino" type="radio" name="genero" value="M">
+				<label for="masculino">Masculino</label><br/>
+				<input id="feminino" type="radio" name="genero" value="F">
+				<label for="feminino">Feminino</label><br/>
+			</fieldset>
+
+			<fieldset>
+				<legend>Atividades:</legend>
+				<input id="musculacao" type="checkbox" name="atividade" value="musculacao">
+				<label for="musculacao">Musculação</label><br/>
+				<input id="pilates" type="checkbox" name="atividade" value="pilates">
+				<label for="pilates">Pilates</label><br/>
+				<input id="yoga" type="checkbox" name="atividade" value="yoga">
+				<label for="yoga">Yoga</label><br/>
+				<input id="corrida" type="checkbox" name="atividade" value="corrida">
+				<label for="corrida">Corrida</label><br/>
+			</fieldset>
+
+			<label for="msg">Mensagem:</label><br>
+			<textarea id="msg" cols="60" rows="4"></textarea>
+
+			<div class="container">
+			<input type="submit" name="bnt-enviar" value="ENVIAR" />
+			<input type="reset" name="btn-cancelar" value="CANCELAR" />
+			</div>
+		</form>
+
+		</section>
+
+		<footer>
+			<p align="center">Desenvolvido por <a href="http://instagram.com/tiiagosegato" target="_blank">Tiago Segato</a> - 2020</p>
+		</footer>
+	</body>
+</html>

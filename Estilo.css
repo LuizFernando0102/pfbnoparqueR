@@ -1,0 +1,272 @@
+*{margin:0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;700&display=swap');
+
+body{
+	background-color: ;
+}
+
+header{
+	width: 100%;
+	height: 500px;
+}
+
+img{
+	border: ;
+	padding: ;
+	margin: ;
+	width: 100%;
+	height: 500px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	color: #777;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 30px;
+}
+
+.card-img{
+	height: 500px;
+}
+
+nav{
+	background-color: #00BCD4;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+a{
+	color: #FFF;
+	font: 1.2rem 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.a{
+		margin-right: 30px;
+}
+
+.a:hover, .a:active{
+	color: #3F51B5;
+}
+
+.a:link, .a:visited{
+	color: #FFF;
+}
+
+article{
+	width: ;
+	height: ;
+	background-color: #FFF;
+	padding: 20px;
+	box-sizing: border-box;
+	
+}
+
+section{
+	padding: 20px;
+}
+
+#beneficios{
+	background-color: #00BCD4;
+	padding: 20px;
+}
+
+#beneficios h2{
+	color: #FFF;
+}
+
+#beneficios p{
+	color: #FFF;
+}
+
+ul{
+	list-style-type: circle;
+	padding: 20px 50px ;
+}
+
+li{
+	font: 1.2rem 'Roboto', sans-serif;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+#modalidades{
+	background-color: #EEE;
+
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.card{
+	background-color: #FFF;
+	margin: 20px;
+	width: 25%;
+	border-radius: 8px;
+	box-shadow: 0 5px 9px #CCC;
+	transition: 0.5;
+}
+
+.card:hover{
+	box-shadow: 0 10px 18px #CCC;
+}
+
+.card-content{
+	padding: 10px;
+}
+
+.card-content p{
+	font: 1.2rem 'Roboto', sans-serif;
+	line-height: 20px;
+}
+
+#treinos{
+
+}
+
+#treinos p{
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+#container-treinos{
+	display: flex;
+}
+
+.coluna-treinos{
+	padding: 20px;
+}
+
+.icones{
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+}
+
+.container-imagens{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-imagens p{
+	color: #000;
+	font-weight: bold;
+}
+
+.video{
+	width: 500px;
+	height: 600px;
+}
+
+footer{
+	background-color: #000;
+	padding: 20px;
+
+}
+
+footer p{
+	text-align: center;
+	color: #FFF;
+}
+
+footer a{
+	color: #FFF;
+}
+
+footer a:hover{
+	color: #00BCD4;
+}
+
+h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3rem;
+	color: #3F51B5;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2{
+	font: 3rem 'Kaushan Script', cursive;
+	color: #3F51B5;
+}
+
+h3{
+	font: 2rem 'Kaushan Script', cursive;
+	color: #3F51B5;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h4{
+
+}
+
+#txtPreto{
+	color: #000;
+}
+
+#agendamentos{
+	background-color: #F0F0F0
+}
+
+#agendamentos p{
+	text-align: center;
+
+}
+
+form {
+	background-color: #FFF;
+	width: 400px;
+	margin: 10px auto;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #CCC;
+}
+
+input, select, fieldset, textarea{
+	width:  100%;
+	padding: 8px;
+	box-sizing: border-box;
+	font: 1.2rem 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-bottom: 10px;
+	border: 1px solid #CCC;
+}
+
+label, legend{
+	font: 1.2rem 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #212121;
+}
+
+.mini-itens{
+	width: 32%;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 30px;
+	margin-left: 50px;
+}
+
+input[type="submit"], input[type="reset"]{
+	border: none;
+	border-radius: 10px;
+	background-color: #8BC34A;
+	color: #FFF;
+	width: 45%;
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
